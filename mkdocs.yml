@@ -14,6 +14,7 @@ plugins:
   - search
 theme:
   logo: "assets/favicon.png"
+  favicon: "images/WaterCS.png"
   icon:
     repo: fontawesome/brands/github
   name: material
@@ -46,6 +47,7 @@ nav:
   - 项目介绍:
       - 申请总纲: "Application.md"
       - HK:
+          - MS@HK: "Program/HK/HK_summry.md"
           - CS@CUHK: "Program/HK/T1/CS@CUHK.md"
           - IE@CUHK: "Program/HK/T1.5/IE@CUHK.md"
           - ASDS@CUHK: "Program/HK/TX/ASDS@CUHK.md"
@@ -69,3 +71,5 @@ nav:
 repo_url: https://github.com/Water-CS-Application/WaterCS
 repo_name: WaterCS
 edit_uri: edit/main/docs/
+extra:
+  homepage: https://github.com/Water-CS-Application/WaterCS

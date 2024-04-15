@@ -8,7 +8,7 @@
 
 - [🐧群](https://qm.qq.com/q/QO07H1J4Uq)
 - [Telegram](https://t.me/+RIwaFjsks6I2NzE1)
-- [Discord](https://discord.gg/Hr8ujPcW)
+- [Discord](https://discord.gg/KM7XpnR4)
 
 ## 如何成为贡献者
 
