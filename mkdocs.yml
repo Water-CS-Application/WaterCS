@@ -13,29 +13,34 @@ markdown_extensions:
 plugins:
   - search
 theme:
-  logo: "assets/images/favicon.png"
+  logo: "assets/favicon.png"
+  icon:
+    repo: fontawesome/brands/github
   name: material
   language: zh
   features:
     - navigation.instant
     - navigation.instant.progress
     - navigation.instant.prefetch
+    - content.action.edit
+    - navigation.tabs
   palette:
     - scheme: default
       primary: white # 上方的
       accent: indigo
       toggle:
-        icon: material/weather-night # 图标
+        icon: material/brightness-7 # 图标
         name: 切换至夜间模式 # 鼠标悬浮提示
     - scheme: slate
       primary: black
       accent: indigo
       toggle:
-        icon: material/weather-sunny
+        icon: material/brightness-4
         name: 切换至日间模式
 nav:
-  - "index.md"
+  - Home: "index.md"
   - 项目介绍:
+      - 申请总纲: "Application.md"
       - HK:
           - CS@CUHK: "Program/HK/T1/CS@CUHK.md"
           - IE@CUHK: "Program/HK/T1.5/IE@CUHK.md"
@@ -59,3 +64,4 @@ nav:
           - SPML@NTU: "Program/SG/T2/SPML@NTU.md"
 repo_url: https://github.com/Water-CS-Application/WaterCS
 repo_name: WaterCS
+edit_uri: edit/main/docs/
