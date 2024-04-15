@@ -16,6 +16,10 @@ plugins:
 theme:
   name: material
   language: zh
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.prefetch
   palette:
     - scheme: default
       primary: white # 上方的
