@@ -17,6 +17,7 @@ theme:
   icon:
     repo: fontawesome/brands/github
   name: material
+  custom_dir: overrides
   language: zh
   features:
     - navigation.instant
@@ -25,18 +26,21 @@ theme:
     - content.action.edit
     - navigation.tabs
   palette:
-    - scheme: default
-      primary: white # 上方的
-      accent: indigo
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
       toggle:
-        icon: material/brightness-7 # 图标
-        name: 切换至夜间模式 # 鼠标悬浮提示
-    - scheme: slate
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: black
-      accent: indigo
       toggle:
         icon: material/brightness-4
-        name: 切换至日间模式
+        name: Switch to light mode
 nav:
   - Home: "index.md"
   - 项目介绍:
