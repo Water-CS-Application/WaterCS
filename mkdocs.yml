@@ -1,7 +1,6 @@
 site_name: WaterCS
 site_author: 'Water-CS-Application'
 markdown_extensions:
-  - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
   - admonition
@@ -14,6 +13,7 @@ markdown_extensions:
 plugins:
   - search
 theme:
+  logo: "assets/images/favicon.png"
   name: material
   language: zh
   features:
@@ -23,13 +23,13 @@ theme:
   palette:
     - scheme: default
       primary: white # 上方的
-      accent: cyan # 链接等可交互元件的高亮色
+      accent: indigo
       toggle:
         icon: material/weather-night # 图标
         name: 切换至夜间模式 # 鼠标悬浮提示
     - scheme: slate
       primary: black
-      accent: cyan
+      accent: indigo
       toggle:
         icon: material/weather-sunny
         name: 切换至日间模式
@@ -38,8 +38,24 @@ nav:
   - 项目介绍:
       - HK:
           - CS@CUHK: "Program/HK/T1/CS@CUHK.md"
+          - IE@CUHK: "Program/HK/T1.5/IE@CUHK.md"
+          - ASDS@CUHK: "Program/HK/TX/ASDS@CUHK.md"
+          - BDT@HKUST: "Program/HK/T1/BDT@HKUST.md"
+          - IT@HKUST: "Program/HK/T1/IT@HKUST.md"
+          - CS@HKU: "Program/HK/T2/CS@HKU.md"
+          - AI@HKU: "Program/HK/T1.5/AI@HKU.md"
+          - DS@HKU: "Program/HK/T1.5/DS@HKU.md"
       - SG:
           - Mcomp@NUS: "Program/SG/T1/Mcomp@NUS.md"
+          - SE@NUS: "Program/SG/T2/SE@NUS.md"
+          - IS@NUS: "Program/SG/T2/IS@NUS.md"
+          - DSML@NUS: "Program/SG/T1/DSML@NUS.md"
+          - FE@NUS: "Program/SG/T1/FE@NUS.md"
           - AI@NTU: "Program/SG/T1/AI@NTU.md"
+          - CyberSec@NTU: "Program/SG/T1.5/CyberSec@NTU.md"
+          - BlockChain@NTU: "Program/SG/T1.5/BlockChain@NTU.md"
+          - DS@NTU: "Program/SG/T1/DS@NTU.md"
+          - CCA@NTU: "Program/SG/T2/CCA@NTU.md"
+          - SPML@NTU: "Program/SG/T2/SPML@NTU.md"
 repo_url: https://github.com/Water-CS-Application/WaterCS
 repo_name: WaterCS
