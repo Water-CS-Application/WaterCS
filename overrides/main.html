@@ -1,52 +1,131 @@
 {% extends "base.html" %}
 
 {% block content %}
-  {{ super() }}
-  <!-- Giscus -->
-  <h2 id="__comments">{{ lang.t("meta.comments") }}</h2>
+{{ super() }}
+<!-- Giscus -->
+<h2 id="__comments">{{ lang.t("meta.comments") }}</h2>
 
 
-  <!-- 这里改成你的Giscus代码 -->
-<script src="https://giscus.app/client.js"
-        data-repo="Water-CS-Application/WaterCS"
-        data-repo-id="R_kgDOLuPdmg"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOLuPdms4Cesq0"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
-        crossorigin="anonymous"
-        async>
-</script>
-
-
-  <!-- Reload on palette change -->
-  <script>
-    var palette = __md_get("__palette")
-    if (palette && typeof palette.color === "object")
-      if (palette.color.scheme === "slate") {
-        var giscus = document.querySelector("script[src*=giscus]")
-        giscus.setAttribute("data-theme", "dark")
-      }
-    /* Register event handlers after documented loaded */
-    document.addEventListener("DOMContentLoaded", function() {
-      var ref = document.querySelector("[data-md-component=palette]")
-      ref.addEventListener("change", function() {
-        var palette = __md_get("__palette")
-        if (palette && typeof palette.color === "object") {
-          var theme = palette.color.scheme === "slate" ? "dark" : "light"
-          /* Instruct Giscus to change theme */
-          var frame = document.querySelector(".giscus-frame")
-          frame.contentWindow.postMessage(
-            { giscus: { setConfig: { theme } } },
-            "https://giscus.app"
-          )
-        }
-      })
-    })
+<!-- 这里改成你的Giscus代码 -->
+<script src="https://giscus.app/client.js" data-repo="Water-CS-Application/WaterCS" data-repo-id="R_kgDOLuPdmg"
+  data-category="Announcements" data-category-id="DIC_kwDOLuPdms4Cesq0" data-mapping="pathname" data-strict="0"
+  data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="preferred_color_scheme"
+  data-lang="zh-CN" crossorigin="anonymous" async>
   </script>
+
+
+<!-- Reload on palette change -->
+<script>
+  var palette = __md_get("__palette")
+  const is_force = localStorage.getItem("force");
+  if (is_force === null) {
+    // if user has not set the theme, we will set the theme based on the user's system preference
+    const darkModeQuery = window.matchMedia("(prefers-color-scheme: dark)");
+    if (darkModeQuery.matches) {
+      const giscus = document.querySelector("script[src*=giscus]")
+      giscus.setAttribute("data-theme", "dark")
+    } else {
+      const giscus = document.querySelector("script[src*=giscus]")
+      giscus.setAttribute("data-theme", "light")
+    }
+  } else {
+    // if user has set the theme, we will set the theme based on the user's choice
+    const giscus = document.querySelector("script[src*=giscus]")
+    giscus.setAttribute("data-theme", is_force)
+  }
+
+  /* Register event handlers after documented loaded */
+  document.addEventListener("DOMContentLoaded", function () {
+    var ref = document.querySelector("[data-md-component=palette]")
+    ref.addEventListener("change", function () {
+      var palette = __md_get("__palette")
+      if (palette && typeof palette.color === "object") {
+        var theme = palette.color.scheme === "slate" ? "dark" : "light"
+        /* Instruct Giscus to change theme */
+        var frame = document.querySelector(".giscus-frame")
+        frame.contentWindow.postMessage(
+          { giscus: { setConfig: { theme } } },
+          "https://giscus.app"
+        )
+        localStorage.setItem("force", theme);
+      }
+    })
+  })
+
+  const darkModeQuery = window.matchMedia("(prefers-color-scheme: dark)");
+  darkModeQuery.addEventListener("change", (e) => {
+    const is_force = localStorage.getItem("force");
+    if (is_force === null) {
+      if (e.matches) {
+        const theme = "dark"
+        var frame = document.querySelector(".giscus-frame")
+        frame.contentWindow.postMessage(
+          { giscus: { setConfig: { theme } } },
+          "https://giscus.app"
+        )
+        set_doc_theme(theme)
+
+      } else {
+        const theme = "light"
+        var frame = document.querySelector(".giscus-frame")
+        frame.contentWindow.postMessage(
+          { giscus: { setConfig: { theme } } },
+          "https://giscus.app"
+        )
+        set_doc_theme(theme)
+      }
+    }
+  });
+
+  const set_doc_theme = (theme) => {
+    var palette = localStorage.getItem("/.__palette")
+    if (theme === 'dark') {
+      localStorage.setItem("/.__palette", JSON.stringify(
+        {
+          "index": 1,
+          "color": {
+            "scheme": "slate",
+            "primary": "black",
+            "accent": ""
+          }
+        }
+      ));
+      document.body.setAttribute("data-md-color-scheme", "slate")
+      document.body.setAttribute("data-md-color-primary", "black")
+      document.querySelectorAll("label").forEach((el) => {
+        if (el.getAttribute('for') === "__palette_1") {
+          el.removeAttribute('hidden');
+        }
+        if (el.getAttribute('for') === "__palette_2") {
+          el.setAttribute('hidden', '');
+        }
+
+      })
+    } else {
+      localStorage.setItem("/.__palette", JSON.stringify(
+        {
+          "index": 0,
+          "color": {
+            "scheme": "default",
+            "primary": "white",
+            "accent": ""
+          }
+        }
+      ));
+      document.body.setAttribute("data-md-color-scheme", "default")
+      document.body.setAttribute("data-md-color-primary", "white")
+      document.querySelectorAll("label").forEach((el) => {
+        console.log(el)
+        if (el.getAttribute('for') === "__palette_2") {
+          el.removeAttribute('hidden');
+        }
+        if (el.getAttribute('for') === "__palette_1") {
+          el.setAttribute('hidden', '');
+        }
+
+      })
+    }
+  }
+
+</script>
 {% endblock %}
