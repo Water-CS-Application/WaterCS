@@ -16,6 +16,6 @@ WaterCS 是一个开源项目，我们欢迎任何人为这个项目提交[Pull 
 
 ## 鸣谢
 
-<a href="https://github.com/Water-CS-Application/WaterCS/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Water-CS-Application/WaterCS" />
+<a href="https://github.com/Water-Cs-Application/WaterCS/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Water-Cs-Application/WaterCS" />
 </a>
