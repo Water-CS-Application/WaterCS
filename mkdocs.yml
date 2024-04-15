@@ -11,6 +11,8 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.arithmatex:
       generic: true
+plugins:
+  - search
 theme:
   name: material
   language: zh
@@ -28,5 +30,52 @@ theme:
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
-repo_url: https://github.com/water-cs-application.github.io/WaterCS/
+nav:
+  - "index.md"
+  - 项目介绍:
+      - 查找指南: "Program/search.md"
+      - 英国项目:
+          - Ⅰ:
+              - Cambridge MLMI: "Program/T0/Cambridge MLMI.md"
+              - Cambridge ACS: "Program/T0/Cambridge ACS.md"
+              - Oxford ACS: "Program/T0/Oxford ACS.md"
+              - UCL CSML MSc: "Program/T0/UCL CSML MSc.md"
+          - Ⅱ:
+              - UCL DSML MSc: "Program/T1/UCL DSML MSc.md"
+              - UCL ML MSc: "Program/T1/UCL ML MSc.md"
+              - Edinburgh AI: "Program/T1/Edinburgh AI.md"
+              - IC AIML: "Program/T1/IC AIML.md"
+              - IC AC: "Program/T1/IC AC.md"
+          - Ⅲ:
+              - Edinburgh CS: "Program/T1.5/Edinburgh CS.md"
+              - UCL CS Msc: "Program/T1.5/UCL CS Msc.md"
+              - UCL CGVI: "Program/T1.5/UCL CGVI.md"
+
+      - 香港项目:
+            - HKUST BDT: "Program/T1.5/HKUST BDT.md"
+            - HKUST IT: "Program/T1.5/HKUST IT.md"
+            - HKU CS Msc: "Program/T1.5/HKU CS Msc.md"
+            - CUHK CS Msc: "Program/T1.5/CUHK CS Msc.md"
+            - CUHK IE: "Program/T1.5/CUHK IE.md"
+
+      - 新加坡项目:
+            - Ⅰ:
+                - NUS Mcomp: "Program/SG/NUS Mcomp.md"
+                - NTU MSAI: "Program/T1.5/NTU MSAI.md"
+                - NTU MSDS: "Program/T1.5/NTU MSDS.md"
+                - NTU Cyber Security: "Program/T1.5/NTU Cyber Security.md"
+            - Ⅱ:
+                - NUS CE: "Program/T2/NUS CE.md"
+                - SMU MITB: "Program/T2/SMU MITB.md"
+                - NUS DSML: "Program/T2/NUS DSML.md"
+
+      - 日韩/其他项目:
+          - KAIST CS: "Program/TX/KAIST CS.md"
+          - UTokyo CS: "Program/TX/UTokyo CS.md"
+          - KAUST CS Msc: "Program/TX/KAUST CS Msc.md"
+          - Waseda IPS: "Program/TX/Waseda IPS.md"
+  - 申请总结:
+      - 24fall:
+
+repo_url: https://github.com/Water-CS-Application/WaterCS
 repo_name: WaterCS
