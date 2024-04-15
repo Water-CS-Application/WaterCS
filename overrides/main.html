@@ -78,7 +78,6 @@
   });
 
   const set_doc_theme = (theme) => {
-    var palette = localStorage.getItem("/.__palette")
     if (theme === 'dark') {
       localStorage.setItem("/.__palette", JSON.stringify(
         {
@@ -90,8 +89,21 @@
           }
         }
       ));
+
+      localStorage.setItem("/WaterCS/.__palette", JSON.stringify(
+        {
+          "index": 1,
+          "color": {
+            "media": "(prefers-color-scheme: dark)",
+            "scheme": "slate",
+            "primary": "black",
+            "accent": "indigo"
+          }
+        }
+      ));
       document.body.setAttribute("data-md-color-scheme", "slate")
       document.body.setAttribute("data-md-color-primary", "black")
+      document.body.setAttribute("data-md-color-media", "(prefers-color-scheme: dark)")
       document.querySelectorAll("label").forEach((el) => {
         if (el.getAttribute('for') === "__palette_1") {
           el.removeAttribute('hidden');
@@ -112,8 +124,21 @@
           }
         }
       ));
+
+      localStorage.setItem("/WaterCS/.__palette", JSON.stringify(
+        {
+          "index": 0,
+          "color": {
+            "media": "(prefers-color-scheme: light)",
+            "scheme": "default",
+            "primary": "white",
+            "accent": "indigo"
+          }
+        }
+      ));
       document.body.setAttribute("data-md-color-scheme", "default")
       document.body.setAttribute("data-md-color-primary", "white")
+      document.body.setAttribute("data-md-color-media", "(prefers-color-scheme: light)")
       document.querySelectorAll("label").forEach((el) => {
         console.log(el)
         if (el.getAttribute('for') === "__palette_2") {
