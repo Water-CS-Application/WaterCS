@@ -2,7 +2,8 @@
   "projectName": "WaterCS",
   "projectOwner": "Water-CS-Application",
   "files": [
-    "README.md"
+    "README.md",
+    "docs/index.md"
   ],
   "commitType": "docs",
   "imageSize": 70,
