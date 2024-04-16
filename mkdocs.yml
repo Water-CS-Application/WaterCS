@@ -21,11 +21,19 @@ theme:
   custom_dir: overrides
   language: zh
   features:
-    - navigation.instant
-    - navigation.instant.progress
-    - navigation.instant.prefetch
     - content.action.edit
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
     - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+    - toc.follow
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -58,6 +66,7 @@ nav:
           - DS@HKU: "Program/HK/T1.5/DS@HKU.md"
       - SG:
           - Mcomp@NUS: "Program/SG/T1/Mcomp@NUS.md"
+          - Mcomp GT@NUS: "Program/SG/TX/Mcomp GT@NUS.md"
           - SE@NUS: "Program/SG/T2/SE@NUS.md"
           - IS@NUS: "Program/SG/T2/IS@NUS.md"
           - DSML@NUS: "Program/SG/T1/DSML@NUS.md"
@@ -73,3 +82,13 @@ repo_name: WaterCS
 edit_uri: edit/main/docs/
 extra:
   homepage: https://github.com/Water-CS-Application/WaterCS
+  consent:
+      title: Cookie consent
+      description: >-
+        We use cookies to recognize your repeated visits and preferences, as well
+        as to measure the effectiveness of our documentation and whether users
+        find what they're searching for. With your consent, you're helping us to
+        make our documentation better.
+      actions:
+        - accept
+        - manage
