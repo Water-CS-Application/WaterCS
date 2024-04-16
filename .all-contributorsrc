@@ -12,12 +12,6 @@
   "contributorsPerLine": 7,
   "contributors": [
     {
-      "login": "dqhl76",
-      "name": "Liuqing Yue",
-      "avatar_url": "https://avatars.githubusercontent.com/u/69136320?v=4",
-      "profile": "https://github.com/dqhl76",
-      "contributions": [
-        "code",
       "login": "Kevin-Ting",
       "name": "Kevin Ting",
       "avatar_url": "https://avatars.githubusercontent.com/u/128990659?v=4",
@@ -49,6 +43,15 @@
       "name": "Liuqing Yue",
       "avatar_url": "https://avatars.githubusercontent.com/u/69136320?v=4",
       "profile": "https://github.com/dqhl76",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "1shuimo",
+      "name": "ChenYubin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/107478133?v=4",
+      "profile": "https://github.com/1shuimo",
       "contributions": [
         "content"
       ]
