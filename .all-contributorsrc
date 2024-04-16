@@ -1,4 +1,21 @@
 {
   "projectName": "WaterCS",
-  "projectOwner": "Water-CS-Application"
+  "projectOwner": "Water-CS-Application",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "Kevin-Ting",
+      "name": "Kevin Ting",
+      "avatar_url": "https://avatars.githubusercontent.com/u/128990659?v=4",
+      "profile": "https://github.com/Kevin-Ting",
+      "contributions": [
+        "content"
+      ]
+    }
+  ]
 }
