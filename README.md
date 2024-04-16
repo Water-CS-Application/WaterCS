@@ -15,6 +15,13 @@ WaterCS 是一个开源项目，我们欢迎任何人为这个项目提交[Pull 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Kevin-Ting"><img src="https://avatars.githubusercontent.com/u/128990659?v=4?s=100" width="100px;" alt="Kevin Ting"/><br /><sub><b>Kevin Ting</b></sub></a><br /><a href="#content-Kevin-Ting" title="Content">🖋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
