@@ -5,6 +5,9 @@
     "README.md"
   ],
   "commitType": "docs",
+  "imageSize": 70,
+  "commit": true,
+  "contributorsSortAlphabetically": true,
   "commitConvention": "angular",
   "contributorsPerLine": 7,
   "contributors": [
@@ -31,6 +34,15 @@
       "name": "Siwen_Jiao ",
       "avatar_url": "https://avatars.githubusercontent.com/u/140587950?v=4",
       "profile": "https://github.com/SivenCapo",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "dqhl76",
+      "name": "Liuqing Yue",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69136320?v=4",
+      "profile": "https://github.com/dqhl76",
       "contributions": [
         "content"
       ]
