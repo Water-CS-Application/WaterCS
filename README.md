@@ -12,6 +12,11 @@ WaterCS 是一个开源项目，我们欢迎任何人为这个项目提交[Pull 
 
 ## 鸣谢
 
-<a href="https://github.com/Water-CS-Application/WaterCs/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Water-CS-Application/WaterCs" />
-</a>
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
