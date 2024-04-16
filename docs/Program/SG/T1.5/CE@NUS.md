@@ -2,7 +2,7 @@
 
 ???+ info "总体情况"
 
-NUS的computer engineering 在cde学院也就是（College of Design and Engineering），然后是个311的项目，所谓311就是nus与国内的院校合作，提前大四那年在nus国内的研究院修一些先修课程，然后门槛较正常申请会低一些（基本是稳录取，毕竟要交8w学费），参考项目介绍如下这个是[重庆研究院](http://www.nusricq.cn/education/edu2/) ，还有个是苏州研究院的，就是专业不同，本项目的硬件与AI课较多
+    NUS的computer engineering 在cde学院也就是（College of Design and Engineering），然后是个311的项目，所谓311就是nus与国内的院校合作，提前大四那年在nus国内的研究院修一些先修课程，然后门槛较正常申请会低一些（基本是稳录取，毕竟要交8w学费），参考项目介绍如下这个是[重庆研究院](http://www.nusricq.cn/education/edu2/) ，还有个是苏州研究院的，就是专业不同
 
 ???+ note "Pros&Cons"
         
@@ -18,7 +18,7 @@ NUS的computer engineering 在cde学院也就是（College of Design and Enginee
 
     - 有可能无法认证为cs，因为硬件课实在是太多了（如果按照课表的话）
 
-    - 对于非硬件出身的学生学业压力应该比较大
+    - 本项目的硬件与AI课较多，对于非硬件出身的学生学业压力应该比较大
 
 
 ???+ example "录取情况"
