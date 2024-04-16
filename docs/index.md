@@ -8,7 +8,7 @@
 
 - [🐧群](https://qm.qq.com/q/QO07H1J4Uq)
 - [Telegram](https://t.me/+RIwaFjsks6I2NzE1)
-- [Discord](https://discord.gg/Hr8ujPcW)
+- [Discord](https://discord.gg/KM7XpnR4)
 
 ## 如何成为贡献者
 
@@ -16,6 +16,6 @@ WaterCS 是一个开源项目，我们欢迎任何人为这个项目提交[Pull 
 
 ## 鸣谢
 
-<a href="https://github.com/Water-CS-Application/WaterCS/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Water-CS-Application/WaterCS" />
+<a href="https://github.com/Water-CS-Application/WaterCs/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Water-CS-Application/WaterCs" />
 </a>
