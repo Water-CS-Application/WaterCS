@@ -18,11 +18,12 @@ WaterCS 是一个开源项目，我们欢迎任何人为这个项目提交[Pull 
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/dqhl76"><img src="https://avatars.githubusercontent.com/u/69136320?v=4?s=100" width="100px;" alt="Liuqing Yue"/><br /><sub><b>Liuqing Yue</b></sub></a><br /><a href="#content-dqhl76" title="Content">🖋</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Kevin-Ting"><img src="https://avatars.githubusercontent.com/u/128990659?v=4?s=100" width="100px;" alt="Kevin Ting"/><br /><sub><b>Kevin Ting</b></sub></a><br /><a href="#content-Kevin-Ting" title="Content">🖋</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://qyding02.github.io/"><img src="https://avatars.githubusercontent.com/u/64630300?v=4?s=100" width="100px;" alt="QyDing02"/><br /><sub><b>QyDing02</b></sub></a><br /><a href="#content-QyDing02" title="Content">🖋</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/SivenCapo"><img src="https://avatars.githubusercontent.com/u/140587950?v=4?s=100" width="100px;" alt="Siwen_Jiao "/><br /><sub><b>Siwen_Jiao </b></sub></a><br /><a href="#content-SivenCapo" title="Content">🖋</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/1shuimo"><img src="https://avatars.githubusercontent.com/u/107478133?v=4?s=100" width="100px;" alt="ChenYubin"/><br /><sub><b>ChenYubin</b></sub></a><br /><a href="#content-1shuimo" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/1shuimo"><img src="https://avatars.githubusercontent.com/u/107478133?v=4?s=70" width="70px;" alt="ChenYubin"/><br /><sub><b>ChenYubin</b></sub></a><br /><a href="#content-1shuimo" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/kissjerryfan"><img src="https://avatars.githubusercontent.com/u/72304054?v=4?s=70" width="70px;" alt="Jerry Fan"/><br /><sub><b>Jerry Fan</b></sub></a><br /><a href="#content-kissjerryfan" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Kevin-Ting"><img src="https://avatars.githubusercontent.com/u/128990659?v=4?s=70" width="70px;" alt="Kevin Ting"/><br /><sub><b>Kevin Ting</b></sub></a><br /><a href="#content-Kevin-Ting" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/dqhl76"><img src="https://avatars.githubusercontent.com/u/69136320?v=4?s=70" width="70px;" alt="Liuqing Yue"/><br /><sub><b>Liuqing Yue</b></sub></a><br /><a href="#content-dqhl76" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://qyding02.github.io/"><img src="https://avatars.githubusercontent.com/u/64630300?v=4?s=70" width="70px;" alt="QyDing02"/><br /><sub><b>QyDing02</b></sub></a><br /><a href="#content-QyDing02" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/SivenCapo"><img src="https://avatars.githubusercontent.com/u/140587950?v=4?s=70" width="70px;" alt="Siwen_Jiao "/><br /><sub><b>Siwen_Jiao </b></sub></a><br /><a href="#content-SivenCapo" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
