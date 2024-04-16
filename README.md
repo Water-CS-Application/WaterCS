@@ -15,6 +15,13 @@ WaterCS 是一个开源项目，我们欢迎任何人为这个项目提交[Pull 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/dqhl76"><img src="https://avatars.githubusercontent.com/u/69136320?v=4?s=100" width="100px;" alt="Liuqing Yue"/><br /><sub><b>Liuqing Yue</b></sub></a><br /><a href="#code-dqhl76" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
