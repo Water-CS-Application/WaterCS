@@ -30,6 +30,9 @@ WaterCS 是一个开源项目，我们欢迎任何人为这个项目提交[Pull 
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Shay-Liu"><img src="https://avatars.githubusercontent.com/u/167105793?v=4?s=70" width="70px;" alt="Shay LIU"/><br /><sub><b>Shay LIU</b></sub></a><br /><a href="#content-Shay-Liu" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/SivenCapo"><img src="https://avatars.githubusercontent.com/u/140587950?v=4?s=70" width="70px;" alt="Siwen_Jiao "/><br /><sub><b>Siwen_Jiao </b></sub></a><br /><a href="#content-SivenCapo" title="Content">🖋</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/pengyb2001"><img src="https://avatars.githubusercontent.com/u/75617475?v=4?s=70" width="70px;" alt="yb-peng"/><br /><sub><b>yb-peng</b></sub></a><br /><a href="#content-pengyb2001" title="Content">🖋</a></td>
+    </tr>
   </tbody>
 </table>
 
